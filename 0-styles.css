@@ -1,0 +1,45 @@
+/* General styles for the body and list */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Make the list a flex container */
+    justify-content: center; /* Center the icons horizontally */
+    gap: 20px; /* Add spacing between the icons */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  /* General styles for icons */
+  .icon {
+    display: inline-block;
+    width: 150px; /* Set the width of each icon */
+    height: 150px; /* Set the height of each icon */
+    background-image: url('https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/2/d416199ca6ecdbd0f8a3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20241124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241124T121318Z&X-Amz-Expires=345600&X-Amz-SignedHeaders=host&X-Amz-Signature=f374f0dc167ffc0ee701d42a6f819a3cb37cd3c695345109a857e76f9460f819'); /* Link the sprite image */
+    background-size: 450px 150px; /* Ensure the image scales correctly */
+    border-radius: 5px;  
+  }
+  
+  /* Specific positions for each icon */
+  .i-html {
+    background-position: 0 0; /* Position for the HTML icon */
+  }
+  
+  .i-css {
+    background-position: -150px 0; /* Position for the CSS icon */
+  }
+  
+  .i-js {
+    background-position: -300px 0; /* Position for the JavaScript icon */
+  }
+  
+  /* Add spacing for text and icon */
+  li {
+    font-size: 20px; /* Increase font size */
+    text-align: center;
+    font-weight: bold;
+  }
